@@ -41,6 +41,13 @@ The records produced in the functions table, PLSQL_PROFILER_DATA, are listed bel
     
     11 rows selected.
 
+### Calls to Units with EXECUTE ONLY Access
+The manual states "you cannot use the package to profile units for which EXECUTE ONLY access has been granted". In this example there are calls to two units where this applies: the system package DBMS_Lock, and the custom utility package Utils, which is in a different schema (lib) from the one (app) in which the script is run.
+
+In the output above we can see the lines from which the calls are made but nothing within the units called.
+
+### Aggregate/Detail Timing Discrepancy
+Where the flat profiler does not provide data for program units, such as DBMS_Lock.Sleep, the timings at the detail level do not add up to the overall time recorded in the runs table. As there were three calls using elapsed time of 11 seconds in total the total recorded in the runs table is 11 seconds, while this 11 seconds is missing from the detail records, which add up to only 265ms in total.
 
 ## Running Driver Scripts
 [Schema: app; Folder: dprof]
