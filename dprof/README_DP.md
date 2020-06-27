@@ -12,7 +12,7 @@ The current, detail, README shows the data model for the flat profiler, and summ
 
 ## In this README...
 - [Data Model](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_HP.md#Data-Model)
-- [Query Output for Example 2: Sleep - Profiler Data by Time](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Query-Output-for-Example-2-Sleep---Profiler-Data-by-Time)
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
 - [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#running-driver-script)
 
 ## Data Model
@@ -20,10 +20,16 @@ The current, detail, README shows the data model for the flat profiler, and summ
 
 <img src="plsql_profiling - DP ERD.png">
 
-## Query Output for Example 2: Sleep - Profiler Data by Time
+## Query Output for Example 2: Sleep
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#in-this-readme)
+- [Run Header](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Run-Header)
+- [Profiler Data Summaries](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Profiler-Data-Summaries)
+- [Profiler Data by Time](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Profiler-Data-by-Time)
+- [Calls to Units with EXECUTE ONLY Access](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Calls-to-Units-with-EXECUTE-ONLY-Access)
+- [Aggregate/Detail Timing Discrepancy](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Aggregate-Detail-Timing-Discrepancy)
 
 ### Run Header
+
 The record produced in the run table, PLSQL_PROFILER_RUNS, was:
 
      Run Id Time     Seconds  Microsecs
@@ -45,6 +51,8 @@ Profiler data summary by unit (PLSQL_PROFILER_DATA):
     SLEEP_BI                 2   0.000         23        2
 
 ### Profiler Data by Time
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
+
 The records produced in the functions table, PLSQL_PROFILER_DATA, are listed below in order of unit name, then unit number and line number. 
 
     Seconds  Microsecs   Min S   Max S    Calls Unit                 Unit# Type            Line# Line Text
@@ -64,11 +72,15 @@ The records produced in the functions table, PLSQL_PROFILER_DATA, are listed bel
     11 rows selected.
 
 ### Calls to Units with EXECUTE ONLY Access
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
+
 The manual states "you cannot use the package to profile units for which EXECUTE ONLY access has been granted". In this example there are calls to two units where this applies: the system package DBMS_Lock, and the custom utility package Utils, which is in a different schema (lib) from the one (app) in which the script is run.
 
 In the output above we can see the lines from which the calls are made but nothing within the units called.
 
 ### Aggregate/Detail Timing Discrepancy
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
+
 Where the flat profiler does not provide data for program units, such as DBMS_Lock.Sleep, the timings at the detail level do not add up to the overall time recorded in the runs table. As there were three calls using elapsed time of 11 seconds in total the total recorded in the runs table is 11 seconds, while this 11 seconds is missing from the detail records, which add up to only 265ms in total.
 
 ## Running Driver Scripts
