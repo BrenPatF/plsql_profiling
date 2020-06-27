@@ -23,6 +23,28 @@ The current, detail, README shows the data model for the flat profiler, and summ
 ## Query Output for Example 2: Sleep - Profiler Data by Time
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#in-this-readme)
 
+### Run Header
+The record produced in the run table, PLSQL_PROFILER_RUNS, was:
+
+     Run Id Time     Seconds  Microsecs
+    ------- -------- ------- ----------
+          2 07:52:22  11.000   11000000
+
+### Profiler Data Summaries
+Profiler data overall summary (PLSQL_PROFILER_DATA):
+
+    Seconds  Microsecs    Calls
+    ------- ---------- --------
+      0.000        265        7
+
+Profiler data summary by unit (PLSQL_PROFILER_DATA):
+
+    Unit                 Unit# Seconds  Microsecs    Calls
+    -------------------- ----- ------- ---------- --------
+    <anonymous>              1   0.000        242        5
+    SLEEP_BI                 2   0.000         23        2
+
+### Profiler Data by Time
 The records produced in the functions table, PLSQL_PROFILER_DATA, are listed below in order of unit name, then unit number and line number. 
 
     Seconds  Microsecs   Min S   Max S    Calls Unit                 Unit# Type            Line# Line Text
