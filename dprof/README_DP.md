@@ -20,7 +20,7 @@ The current, detail, README shows the data model for the flat profiler, and summ
 
 <img src="plsql_profiling - DP ERD.png">
 
-## Query Output for Example 2: Sleep
+## Results for Example 2: Sleep
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#in-this-readme)
 - [Run Header](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Run-Header)
 - [Profiler Data Summaries](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Profiler-Data-Summaries)
