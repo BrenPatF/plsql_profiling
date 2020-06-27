@@ -50,7 +50,7 @@ Profiler data summary by unit (PLSQL_PROFILER_DATA):
     <anonymous>              1   0.000        242        5
     SLEEP_BI                 2   0.000         23        2
 
-### Profiler Data by Time
+### Profiler Data by Unit and Line
 - [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
 
 The records produced in the functions table, PLSQL_PROFILER_DATA, are listed below in order of unit name, then unit number and line number. 
@@ -81,7 +81,7 @@ In the output above we can see the lines from which the calls are made but nothi
 ### Aggregate/Detail Timing Discrepancy
 - [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
 
-Where the flat profiler does not provide data for program units, such as DBMS_Lock.Sleep, the timings at the detail level do not add up to the overall time recorded in the runs table. As there were three calls using elapsed time of 11 seconds in total the total recorded in the runs table is 11 seconds, while this 11 seconds is missing from the detail records, which add up to only 265ms in total.
+Where the flat profiler does not provide data for program units, such as DBMS_Lock.Sleep, the timings at the detail level do not add up to the overall time recorded in the runs table. As there were three calls using elapsed time of 11 seconds in total the total recorded in the runs table is 11 seconds, while this 11 seconds is missing from the detail records, which add up to only 265 microseconds in total.
 
 ## Running Driver Scripts
 [Schema: app; Folder: dprof]
