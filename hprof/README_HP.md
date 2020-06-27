@@ -63,6 +63,8 @@ The extended network diagram with function names and times included shows 9 seco
 
 <img src="plsql_profiling - qsd.png">
 
+I wrote about query diagramming in August 2012: [Query Structure Diagramming](http://aprogrammerwrites.eu/?p=206)
+
 ## Running Driver Scripts
 [Schema: app; Folder: hprof]
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#in-this-readme)
