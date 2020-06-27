@@ -1,0 +1,50 @@
+
+Database             Time                 Version
+-------------------- -------------------- ------------------------------
+Start: ORCL          27-JUN-2020 07:50:42 Version 19.3.0.0.0
+
+Create type Table_Count
+
+Type created.
+
+No errors.
+
+Type body created.
+
+No errors.
+Create table with trigger
+DROP TABLE trigger_tab
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+
+Table created.
+
+
+Trigger created.
+
+Create package Prof_Test
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+Create package HProf_Utils
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+
+'END:'||TO_CHAR(SYSDATE,'DD-MON-YY
+----------------------------------
+End: 27-JUN-2020 07:50:42
+

@@ -1,0 +1,53 @@
+
+Database             Time                 Version
+-------------------- -------------------- ------------------------------
+Start: ORCL          27-JUN-2020 07:52:51 Version 19.3.0.0.0
+
+B1: A_Calls_B
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.13
+SQL: Static DB function call
+
+    DBFUNC
+----------
+        99
+
+Elapsed: 00:00:00.03
+B2: Static DB function; dynamic SQL; object constructor
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.34
+B3: R_Calls_R; write times
+In R_Calls_R, x_call_no = 0
+In R_Calls_R, x_call_no = 1
+Timer Set: Timer_Set_Test, Constructed at 27 Jun 2020 07:52:51, written at 07:52:52
+===================================================================================
+Timer                      Elapsed         CPU       Calls       Ela/Call       CPU/Call
+----------------------  ----------  ----------  ----------  -------------  -------------
+A_Calls_B, section one        0.01        0.02           2        0.00600        0.01000
+A_Calls_B, section two        0.03        0.02           2        0.01450        0.01000
+B_Calls_A: 2                  0.03        0.03           1        0.03100        0.03000
+B_Calls_A: 4                  0.06        0.06           1        0.06100        0.06000
+DBFunc                        0.08        0.06           2        0.03850        0.03000
+Open cursor                   0.00        0.00           1        0.00100        0.00000
+Fetch from cursor             0.27        0.29           1        0.27400        0.29000
+Close cursor                  0.00        0.00           1        0.00000        0.00000
+Construct object              0.03        0.01           1        0.02500        0.01000
+R_Calls_R                     0.04        0.03           2        0.02000        0.01500
+(Other)                       0.00        0.00           1        0.00100        0.00000
+----------------------  ----------  ----------  ----------  -------------  -------------
+Total                         0.55        0.52          15        0.03673        0.03467
+----------------------  ----------  ----------  ----------  -------------  -------------
+[Timer timed (per call in ms): Elapsed: 0.00971, CPU: 0.01068]
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.15
+
+'END:'||TO_CHAR(SYSDATE,'DD-MON-YY
+----------------------------------
+End: 27-JUN-2020 07:52:52
+

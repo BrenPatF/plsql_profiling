@@ -1,0 +1,72 @@
+
+Database             Time                 Version
+-------------------- -------------------- ------------------------------
+Start: ORCL          27-JUN-2020 07:52:22 Version 19.3.0.0.0
+
+B1: Start profiling; DBMS_Lock.Sleep, 3 + 6; insert to trigger_tab; stop profiling
+Start: profile run id = 2
+Stop: result = 0
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:11.01
+Run header (PLSQL_PROFILER_RUNS)
+
+ Run Id Time     Seconds  Microsecs
+------- -------- ------- ----------
+      2 07:52:22  11.000   11000000
+
+Profiler data overall summary (PLSQL_PROFILER_DATA)
+
+Seconds  Microsecs    Calls
+------- ---------- --------
+  0.000        265        7
+
+Profiler data summary by unit (PLSQL_PROFILER_DATA)
+
+Unit                 Unit# Seconds  Microsecs    Calls
+-------------------- ----- ------- ---------- --------
+<anonymous>              1   0.000        242        5
+SLEEP_BI                 2   0.000         23        2
+
+Profiler data by unit and line (PLSQL_PROFILER_DATA)
+
+Seconds  Microsecs   Min S   Max S    Calls Unit                 Unit# Type            Line# Line Text
+------- ---------- ------- ------- -------- -------------------- ----- --------------- ----- ------------------------------------------------------------------
+  0.000          0   0.000   0.000        0 <anonymous>              1 ANONYMOUS BLOCK     1
+  0.000          2   0.000   0.000        0 <anonymous>              1 ANONYMOUS BLOCK     5
+  0.000         23   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK     9
+  0.000         10   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    11
+  0.000        199   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    13
+  0.000          3   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    15
+  0.000          5   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    17
+  0.000          0   0.000   0.000        0 <anonymous>              1 ANONYMOUS BLOCK    19
+  0.000          2   0.000   0.000        0 SLEEP_BI                 2 TRIGGER             1 TRIGGER sleep_bi
+  0.000         20   0.000   0.000        1 SLEEP_BI                 2 TRIGGER             2 BEFORE INSERT
+  0.000          1   0.000   0.000        1 SLEEP_BI                 2 TRIGGER             4 FOR EACH ROW
+
+11 rows selected.
+
+Profiler data by time (PLSQL_PROFILER_DATA)
+
+Seconds  Microsecs   Min S   Max S    Calls Unit                 Unit# Type            Line# Line Text
+------- ---------- ------- ------- -------- -------------------- ----- --------------- ----- ------------------------------------------------------------------
+  0.000        199   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    13
+  0.000         23   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK     9
+  0.000         20   0.000   0.000        1 SLEEP_BI                 2 TRIGGER             2 BEFORE INSERT
+  0.000         10   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    11
+  0.000          5   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    17
+  0.000          3   0.000   0.000        1 <anonymous>              1 ANONYMOUS BLOCK    15
+  0.000          2   0.000   0.000        0 <anonymous>              1 ANONYMOUS BLOCK     5
+  0.000          2   0.000   0.000        0 SLEEP_BI                 2 TRIGGER             1 TRIGGER sleep_bi
+  0.000          1   0.000   0.000        1 SLEEP_BI                 2 TRIGGER             4 FOR EACH ROW
+  0.000          0   0.000   0.000        0 <anonymous>              1 ANONYMOUS BLOCK     1
+  0.000          0   0.000   0.000        0 <anonymous>              1 ANONYMOUS BLOCK    19
+
+11 rows selected.
+
+
+'END:'||TO_CHAR(SYSDATE,'DD-MON-YY
+----------------------------------
+End: 27-JUN-2020 07:52:33
+

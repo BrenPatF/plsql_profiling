@@ -1,0 +1,44 @@
+
+Database             Time                 Version
+-------------------- -------------------- ------------------------------
+Start: ORCL          27-JUN-2020 07:49:35 Version 19.3.0.0.0
+
+
+PL/SQL procedure successfully completed.
+
+Granting dbmshp components to app..
+old   1: GRANT ALL ON dbmshp_runs TO &APP
+new   1: GRANT ALL ON dbmshp_runs TO app
+
+Grant succeeded.
+
+old   1: GRANT ALL ON dbmshp_function_info TO &APP
+new   1: GRANT ALL ON dbmshp_function_info TO app
+
+Grant succeeded.
+
+old   1: GRANT ALL ON dbmshp_parent_child_info TO &APP
+new   1: GRANT ALL ON dbmshp_parent_child_info TO app
+
+Grant succeeded.
+
+old   1: GRANT ALL ON dbmshp_trace_data TO &APP
+new   1: GRANT ALL ON dbmshp_trace_data TO app
+
+Grant succeeded.
+
+old   1: GRANT SELECT ON dbmshp_runnumber TO &APP
+new   1: GRANT SELECT ON dbmshp_runnumber TO app
+
+Grant succeeded.
+
+old   1: GRANT SELECT ON dbmshp_tracenumber TO &APP
+new   1: GRANT SELECT ON dbmshp_tracenumber TO app
+
+Grant succeeded.
+
+
+'END:'||TO_CHAR(SYSDATE,'DD-MON-YY
+----------------------------------
+End: 27-JUN-2020 07:49:35
+

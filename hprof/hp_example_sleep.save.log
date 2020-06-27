@@ -1,0 +1,92 @@
+
+Database             Time                 Version
+-------------------- -------------------- ------------------------------
+Start: ORCL          27-JUN-2020 07:51:42 Version 19.3.0.0.0
+
+B1: Start profiling; DBMS_Lock.Sleep, 3 + 6; insert to trigger_tab; stop profiling
+Run id is 2
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:11.05
+Run header (DBMSHP_RUNS)
+
+ Run Id Run Time                      Microsecs Seconds Comment
+------- ---------------------------- ---------- ------- ------------------------------------------------------------
+      2 27-JUN-20 07.51.53.377000 AM   11003628  11.000 Profile for DBMS_Lock.Sleep
+
+Functions called (DBMSHP_FUNCTION_INFO)
+
+Owner Module            Sy Function                  Line# Subtree MicroS Function MicroS Calls
+----- ---------------- --- ------------------------- ----- -------------- --------------- -----
+APP   HPROF_UTILS        2 STOP_PROFILING               61             87              87     1
+APP   SLEEP_BI           3 SLEEP_BI                      0        1999602             327     1
+LIB   UTILS              4 SLEEP                       351        1999268          999837     1
+LIB   UTILS              5 __pkg_init                    0              2               2     1
+LIB   UTILS              6 __pkg_init                    0              5               5     1
+SYS   DBMS_HPROF         7 STOP_PROFILING              747              0               0     1
+SYS   DBMS_HPROF        11 __static_sql_exec_line700   700             77              77     1
+SYS   DBMS_LOCK          8 SLEEP                       207        9997626         9997626     3
+SYS   DBMS_LOCK          9 __pkg_init                    0              3               3     1
+                         1 __plsql_vm                    0        1999606               4     1
+                        10 __static_sql_exec_line6       6        2005266            5660     1
+
+11 rows selected.
+
+Function call parent-child links (DBMSHP_PARENT_CHILD_INFO)
+
+Parent: Module            Sy Function                       Child:  Module            Sy Function                       Subtree MicroS Function MicroS Calls
+------- ---------------- --- ------------------------------ ------- ---------------- --- ------------------------------ -------------- --------------- -----
+APP     HPROF_UTILS        2 STOP_PROFILING                 SYS     DBMS_HPROF         7 STOP_PROFILING                              0               0     1
+APP     SLEEP_BI           3 SLEEP_BI                       LIB     UTILS              5 __pkg_init                                  2               2     1
+APP     SLEEP_BI           3 SLEEP_BI                       LIB     UTILS              6 __pkg_init                                  5               5     1
+APP     SLEEP_BI           3 SLEEP_BI                       LIB     UTILS              4 SLEEP                                 1999268          999837     1
+LIB     UTILS              4 SLEEP                          SYS     DBMS_LOCK          8 SLEEP                                  999431          999431     1
+                          10 __static_sql_exec_line6                                   1 __plsql_vm                            1999606               4     1
+                           1 __plsql_vm                     APP     SLEEP_BI           3 SLEEP_BI                              1999602             327     1
+
+7 rows selected.
+
+Connect By (may have duplicate links)
+
+Function tree                   Sy Owner Module           Subtree MicroS Function MicroS Calls
+------------------------------ --- ----- ---------------- -------------- --------------- -----
+SLEEP                            8 SYS   DBMS_LOCK               8998195         8998195     2
+__static_sql_exec_line6         10                               2005266            5660     1
+  __plsql_vm                     1                               1999606               4     1
+    SLEEP_BI                     3 APP   SLEEP_BI                1999602             327     1
+      SLEEP                      4 LIB   UTILS                   1999268          999837     1
+        SLEEP                    8 SYS   DBMS_LOCK                999431          999431     1
+      __pkg_init                 6 LIB   UTILS                         5               5     1
+      __pkg_init                 5 LIB   UTILS                         2               2     1
+STOP_PROFILING                   2 APP   HPROF_UTILS                  87              87     1
+  STOP_PROFILING                 7 SYS   DBMS_HPROF                    0               0     1
+__static_sql_exec_line700       11 SYS   DBMS_HPROF                   77              77     1
+__pkg_init                       9 SYS   DBMS_LOCK                     3               3     1
+
+12 rows selected.
+
+BPF Recursive Subquery Factor Tree Query
+
+Function tree                   Sy Owner Module           Inst.  Subtree MicroS Function MicroS Calls Row
+------------------------------ --- ----- ---------------- ------ -------------- --------------- ----- ---
+SLEEP                            8 SYS   DBMS_LOCK        1 of 2        8998195         8998195     2   1
+__static_sql_exec_line6         10                                      2005266            5660     1   2
+  __plsql_vm                     1                                      1999606               4     1   3
+    SLEEP_BI                     3 APP   SLEEP_BI                       1999602             327     1   4
+      SLEEP                      4 LIB   UTILS                          1999268          999837     1   5
+        SLEEP                    8 SYS   DBMS_LOCK        2 of 2         999431          999431     1   6
+      __pkg_init                 6 LIB   UTILS                                5               5     1   7
+      __pkg_init                 5 LIB   UTILS                                2               2     1   8
+STOP_PROFILING                   2 APP   HPROF_UTILS                         87              87     1   9
+  STOP_PROFILING                 7 SYS   DBMS_HPROF                           0               0     1  10
+__static_sql_exec_line700       11 SYS   DBMS_HPROF                          77              77     1  11
+__pkg_init                       9 SYS   DBMS_LOCK                            3               3     1  12
+
+12 rows selected.
+
+
+'END:'||TO_CHAR(SYSDATE,'DD-MON-YY
+----------------------------------
+End: 27-JUN-2020 07:51:53
+
