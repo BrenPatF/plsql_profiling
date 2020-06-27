@@ -18,12 +18,12 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 - [README: Timer Set](timer_set/README_TS.md)
 
 ## In this README...
-- [Screen Recordings on this Module](https://github.com/BrenPatF/plsql_profiling#screen-recordings-on-this-module)
-- [Scenarios](https://github.com/BrenPatF/plsql_profiling#Scenarios)
-- [Features Summary](https://github.com/BrenPatF/plsql_profiling#Features_Summary)
-- [Installation](https://github.com/BrenPatF/plsql_profiling#Installation)
-- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling#running-driver-script)
-- [Operating System/Oracle Versions](https://github.com/BrenPatF/plsql_profiling#operating-systemoracle-versions)
+- [Screen Recordings on this Module](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#screen-recordings-on-this-module)
+- [Scenarios](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Scenarios)
+- [Features Summary](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Features_Summary)
+- [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Installation)
+- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#running-driver-script)
+- [Operating System/Oracle Versions](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#operating-systemoracle-versions)
 
 ## Screen Recordings on this Module
 - [Overview]()
@@ -33,9 +33,9 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 - [Timer Set]()
 
 ## Scenarios
-- [In this README...](https://github.com/BrenPatF/plsql_profiling#in-this-readme)
-- [Example 1: General](https://github.com/BrenPatF/plsql_profiling#Example_1__General)
-- [Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling#Example_2__Sleep)
+- [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
+- [Example 1: General](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Example_1__General)
+- [Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Example_2__Sleep)
 
 <img src="Einstein_Simple_41ur1b0DkJL._AC_.jpg">
 
@@ -43,22 +43,22 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 <img src="plsql_profiling - csd-gen.png">
 
 ### Example 2: Sleep
-- [Scenarios](https://github.com/BrenPatF/plsql_profiling#Scenarios)
+- [Scenarios](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Scenarios)
 
 <img src="plsql_profiling - csd-slp.png">
 
 ## Features Summary
-- [In this README...](https://github.com/BrenPatF/plsql_profiling#in-this-readme)
+- [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
 
 <img src="Features Table-w30.PNG">
 
 ## Installation
-- [In this README...](https://github.com/BrenPatF/plsql_profiling#in-this-readme)
-- [Install 1: Install prerequisite modules](https://github.com/BrenPatF/plsql_profiling#install-1-install-prerequisite-modules)
-- [Install 2: Create Oracle PL/SQL Profiling components](https://github.com/BrenPatF/plsql_profiling#install-2-create-oracle-plsql-api-demos-components)
+- [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
+- [Install 1: Install prerequisite modules](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#install-1-install-prerequisite-modules)
+- [Install 2: Create Oracle PL/SQL Profiling components](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#install-2-create-oracle-plsql-api-demos-components)
 
 ### Install 1: Install prerequisite modules
-- [Installation](https://github.com/BrenPatF/plsql_profiling#installation)
+- [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#installation)
 
 The demo install depends on the prerequisite modules Utils and Timer_Set, and `lib` and `app` schemas refer to the schemas in which Utils and examples are installed, respectively.
 
@@ -86,7 +86,7 @@ SQL> @c_syns_all
 ```
 
 ### Install 2: Create Oracle PL/SQL Profiling components
-- [Installation](https://github.com/BrenPatF/plsql_profiling#installation)
+- [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#installation)
 
 Each of the three profiling methods has its own folder, and they can be installed independently.
 
@@ -109,7 +109,7 @@ SQL> @install_timer_set_app
 ```
 
 ## Running Driver Scripts
-- [In this README...](https://github.com/BrenPatF/plsql_profiling#in-this-readme)
+- [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
 
 Each of the three profiling methods has its own driver scripts in the folder where it's installed.
 
@@ -137,7 +137,7 @@ SQL> @ts_example_sleep
 ```
 
 ## Operating System/Oracle Versions
-- [In this README...](https://github.com/BrenPatF/plsql_profiling#in-this-readme)
+- [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
 
 ### Windows
 Tested on Windows 10, should be OS-independent
