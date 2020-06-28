@@ -2,7 +2,7 @@
 
 The Oracle PL/SQL Profiling module contains the code for a series of articles demonstrating the use of three PL/SQL profiling methods on two example program structures. The examples are designed to illustrate their behaviour over as many different scenarios as possible, while keeping the examples as simple as possible. This submodule, on custom code timing, is one of three covering each of the profilers individually.
 
-Blog: [PL/SQL Profiling 2: Custom Code Timing](http://aprogrammerwrites.eu/?p=2869)
+Blog: [PL/SQL Profiling 4: Custom Code Timing](http://aprogrammerwrites.eu/?p=2869)
 
 The root README shows the scenarios covered with call structure diagrams for the two examples, and has a table summarising the features of the different profilers. These are extracted from the overview article. It also has full installation instructions for running the three profilers on the two example program structures.
 
