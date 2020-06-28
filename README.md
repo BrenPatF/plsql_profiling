@@ -26,11 +26,12 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 - [Operating System/Oracle Versions](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#operating-systemoracle-versions)
 
 ## Screen Recordings on this Module
-- [Overview]()
-- [Installation and Running]()
-- [Hierarchical Profiler]()
-- [Flat Profiler]()
-- [Timer Set]()
+The links are to Tweets with recording attached, and the recording is also included as an mp4 file in the recordings folder of this module.
+- [Overview]() : plsql_profiling_1-overview.mp4
+- [Installation and Running]() : plsql_profiling_2-install.mp4
+- [Hierarchical Profiler]() : plsql_profiling_3-hprof.mp4
+- [Flat Profiler]() : plsql_profiling_4-dprof.mp4
+- [Timer Set]() : plsql_profiling_5-timer_set.mp4
 
 ## Scenarios
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)

@@ -1,0 +1,6 @@
+list.txt
+plsql_profiling_1-overview.mp4
+plsql_profiling_2-install.mp4
+plsql_profiling_3-hprof.mp4
+plsql_profiling_4-dprof.mp4
+plsql_profiling_5-timer_set.mp4
