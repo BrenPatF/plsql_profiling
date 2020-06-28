@@ -29,6 +29,7 @@ The current, detail, README shows the data model for the flat profiler, and summ
 - [Aggregate/Detail Timing Discrepancy](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#aggregatedetail-timing-discrepancy)
 
 ### Run Header
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
 
 The record produced in the run table, PLSQL_PROFILER_RUNS, was:
 
@@ -37,6 +38,8 @@ The record produced in the run table, PLSQL_PROFILER_RUNS, was:
           2 07:52:22  11.000   11000000
 
 ### Profiler Data Summaries
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
+
 Profiler data overall summary (PLSQL_PROFILER_DATA):
 
     Seconds  Microsecs    Calls

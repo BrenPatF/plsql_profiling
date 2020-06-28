@@ -28,7 +28,9 @@ The current, detail, README shows the data model for the hierarchical profiler, 
 - [Extended Network Diagram with Function Names and Times](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#Extended-Network-Diagram-with-Function-Names-and-Times)
 
 ### Query Output
+- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#network-diagrams-for-example-2-sleep)
 
+#### Output
     Function tree                   Sy Owner Module           Inst.  Subtree MicroS Function MicroS Calls Row
     ------------------------------ --- ----- ---------------- ------ -------------- --------------- ----- ---
     SLEEP                            8 SYS   DBMS_LOCK        1 of 2        8998195         8998195     2   1

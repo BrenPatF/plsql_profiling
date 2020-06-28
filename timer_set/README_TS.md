@@ -17,6 +17,8 @@ The current, detail, README shows a general call structure diagram, the data mod
 - [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#running-driver-scripts)
 
 ## Call Structure Diagram
+- [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#in-this-readme)
+
 In both examples a new timer set object is created, calls are made to increment timers within the set, and at the end a report on the timings is written to log. The way the timer set operates in general is illustrated by this diagram:
 
 <img src="Oracle PLSQL API Demos - TimerSet-Flow.png">

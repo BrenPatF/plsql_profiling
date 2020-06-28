@@ -41,6 +41,7 @@ The links are to Tweets with recording attached, and the recording is also inclu
 <img src="Einstein_Simple_41ur1b0DkJL._AC_.jpg">
 
 ### Example 1: General
+- [Scenarios](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#scenarios)
 <img src="plsql_profiling - csd-gen.png">
 
 ### Example 2: Sleep
