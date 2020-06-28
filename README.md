@@ -35,8 +35,8 @@ The links are to Tweets with recording attached, and the recording is also inclu
 
 ## Scenarios
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
-- [Example 1: General](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#example_1_general)
-- [Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#example_2_sleep)
+- [Example 1: General](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#example-1-general)
+- [Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#example-2-sleep)
 
 <img src="Einstein_Simple_41ur1b0DkJL._AC_.jpg">
 
@@ -44,7 +44,7 @@ The links are to Tweets with recording attached, and the recording is also inclu
 <img src="plsql_profiling - csd-gen.png">
 
 ### Example 2: Sleep
-- [Scenarios](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Scenarios)
+- [Scenarios](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#scenarios)
 
 <img src="plsql_profiling - csd-slp.png">
 
