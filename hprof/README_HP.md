@@ -12,9 +12,9 @@ The current, detail, README shows the data model for the hierarchical profiler, 
 
 ## In this README...
 - [Data Model](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#Data-Model)
-- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#Network-Diagram-for-Example-2--Sleep)
-- [Query Structure Diagram](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#Query-Structure-Diagram)
-- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling#running-driver-scripts)
+- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#network-diagrams-for-example-2-sleep)
+- [Query Structure Diagram](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#query-structure-diagram)
+- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#running-driver-scripts)
 
 ## Data Model
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#in-this-readme)
@@ -47,12 +47,12 @@ The current, detail, README shows the data model for the hierarchical profiler, 
     12 rows selected.
 
 ### Basic Network Diagram with Dummy Root
-- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#Network-Diagrams-for-Example-2--Sleep)
+- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#network-diagrams-for-example-2-sleep)
 
 <img src="plsql_profiling - net-slp.png">
 
 ### Extended Network Diagram with Function Names and Times
-- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#Network-Diagrams-for-Example-2--Sleep)
+- [Network Diagrams for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/hprof/README_HP.md#network-diagrams-for-example-2-sleep)
 
 <img src="plsql_profiling - net-slp-time.png">
 

@@ -20,9 +20,9 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 ## In this README...
 - [Screen Recordings on this Module](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#screen-recordings-on-this-module)
 - [Scenarios](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Scenarios)
-- [Features Summary](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Features_Summary)
-- [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Installation)
-- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#running-driver-script)
+- [Features Summary](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#features-summary)
+- [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#installation)
+- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#running-driver-scripts)
 - [Operating System/Oracle Versions](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#operating-systemoracle-versions)
 
 ## Screen Recordings on this Module
@@ -35,8 +35,8 @@ The links are to Tweets with recording attached, and the recording is also inclu
 
 ## Scenarios
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
-- [Example 1: General](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Example_1__General)
-- [Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#Example_2__Sleep)
+- [Example 1: General](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#example_1_general)
+- [Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#example_2_sleep)
 
 <img src="Einstein_Simple_41ur1b0DkJL._AC_.jpg">
 
@@ -56,7 +56,7 @@ The links are to Tweets with recording attached, and the recording is also inclu
 ## Installation
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
 - [Install 1: Install prerequisite modules](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#install-1-install-prerequisite-modules)
-- [Install 2: Create Oracle PL/SQL Profiling components](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#install-2-create-oracle-plsql-api-demos-components)
+- [Install 2: Create Oracle PL/SQL Profiling components](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#install-2-create-oracle-plsql-profiling-components)
 
 ### Install 1: Install prerequisite modules
 - [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#installation)
@@ -86,7 +86,7 @@ SQL> @install_lib_all
 SQL> @c_syns_all
 ```
 
-### Install 2: Create Oracle PL/SQL Profiling components
+### Install 2: Create Oracle PL/SQL Profiling Components
 - [Installation](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#installation)
 
 Each of the three profiling methods has its own folder, and they can be installed independently.

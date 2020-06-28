@@ -11,9 +11,9 @@ The root README shows the scenarios covered with call structure diagrams for the
 The current, detail, README shows the data model for the flat profiler, and summaries of results on the second, simpler, example. These are extracted from the detail article linked above. It also shows how to install and run just the Flat profiler on the two examples.
 
 ## In this README...
-- [Data Model](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_HP.md#Data-Model)
-- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-Example-2-Sleep)
-- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#running-driver-script)
+- [Data Model](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#data-model)
+- [Results for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Results-for-example-2-sleep)
+- [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#running-driver-scripts)
 
 ## Data Model
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#in-this-readme)
@@ -24,9 +24,9 @@ The current, detail, README shows the data model for the flat profiler, and summ
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#in-this-readme)
 - [Run Header](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Run-Header)
 - [Profiler Data Summaries](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Profiler-Data-Summaries)
-- [Profiler Data by Time](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Profiler-Data-by-Time)
+- [Profiler Data by Unit and Line](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#profiler-data-by-unit-and-line)
 - [Calls to Units with EXECUTE ONLY Access](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Calls-to-Units-with-EXECUTE-ONLY-Access)
-- [Aggregate/Detail Timing Discrepancy](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#Aggregate-Detail-Timing-Discrepancy)
+- [Aggregate/Detail Timing Discrepancy](https://github.com/BrenPatF/plsql_profiling/blob/master/dprof/README_DP.md#aggregatedetail-timing-discrepancy)
 
 ### Run Header
 

@@ -13,7 +13,7 @@ The current, detail, README shows a general call structure diagram, the data mod
 ## In this README...
 - [Call structure Diagram](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#Call-structure-Diagram)
 - [Data Model](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#Data-Model)
-- [Timer Set Report for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#Timer-Set-Report-for-Example-2--Sleep)
+- [Timer Set Report for Example 2: Sleep](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#timer-set-report-for-example-2-sleep)
 - [Running Driver Scripts](https://github.com/BrenPatF/plsql_profiling/blob/master/timer_set/README_TS.md#running-driver-scripts)
 
 ## Call Structure Diagram
