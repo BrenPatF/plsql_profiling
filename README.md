@@ -27,7 +27,7 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 
 ## Screen Recordings on this Module
 The links are to Tweets with recording attached, and the recording is also included as an mp4 file in the recordings folder of this module.
-- [Overview]() : plsql_profiling_1-overview.mp4
+- [Overview, and start of thread](https://twitter.com/BrenPatF/status/1277482621967183877) : plsql_profiling_1-overview.mp4
 - [Installation and Running]() : plsql_profiling_2-install.mp4
 - [Hierarchical Profiler]() : plsql_profiling_3-hprof.mp4
 - [Flat Profiler]() : plsql_profiling_4-dprof.mp4
