@@ -4,6 +4,8 @@ The Oracle PL/SQL Profiling module contains the code for a series of articles de
 
 Blog: [PL/SQL Profiling 2: Hierarchical Profiler](http://aprogrammerwrites.eu/?p=2861)
 
+[Tweet with recording attached](https://twitter.com/BrenPatF/status/1278197631504834560)
+
 The root README shows the scenarios covered with call structure diagrams for the two examples, and has a table summarising the features of the different profilers. These are extracted from the Overview article. It also has full installation instructions for running the three profilers on the two example program structures.
 
 - [README: Root](../README.md)

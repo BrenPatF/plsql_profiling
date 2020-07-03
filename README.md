@@ -28,10 +28,10 @@ The detail READMEs show the data model for the profiler concerned, and summaries
 ## Screen Recordings on this Module
 The links are to Tweets with recording attached, and the recording is also included as an mp4 file in the recordings folder of this module.
 - [Overview, and start of thread](https://twitter.com/BrenPatF/status/1277482621967183877) : plsql_profiling_1-overview.mp4
-- [Installation and Running]() : plsql_profiling_2-install.mp4
-- [Hierarchical Profiler]() : plsql_profiling_3-hprof.mp4
-- [Flat Profiler]() : plsql_profiling_4-dprof.mp4
-- [Timer Set]() : plsql_profiling_5-timer_set.mp4
+- [Installation and Running](https://twitter.com/BrenPatF/status/1277837078722732032) : plsql_profiling_2-install.mp4
+- [Hierarchical Profiler](https://twitter.com/BrenPatF/status/1278197631504834560) : plsql_profiling_3-hprof.mp4
+- [Flat Profiler](https://twitter.com/BrenPatF/status/1278558982945243139) : plsql_profiling_4-dprof.mp4
+- [Timer Set](https://twitter.com/BrenPatF/status/1278927737181409280) : plsql_profiling_5-timer_set.mp4
 
 ## Scenarios
 - [In this README...](https://github.com/BrenPatF/plsql_profiling/blob/master/README.md#in-this-readme)
@@ -145,7 +145,7 @@ SQL> @ts_example_sleep
 Tested on Windows 10, should be OS-independent
 
 ### Oracle
-- Tested on Oracle Database Version 19.3.0.0.0 (minimum required: 12.2)
+- Tested on Oracle Database Version 19.3.0.0.0 (minimum required: 11.2)
 
 ## See also
 - [PL/SQL Profiling 1: Overview](http://aprogrammerwrites.eu/?p=703)

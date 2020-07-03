@@ -4,6 +4,8 @@ The Oracle PL/SQL Profiling module contains the code for a series of articles de
 
 Blog: [PL/SQL Profiling 4: Custom Code Timing](http://aprogrammerwrites.eu/?p=2869)
 
+[Tweet with recording attached](https://twitter.com/BrenPatF/status/1278927737181409280)
+
 The root README shows the scenarios covered with call structure diagrams for the two examples, and has a table summarising the features of the different profilers. These are extracted from the overview article. It also has full installation instructions for running the three profilers on the two example program structures.
 
 - [README: Root](../README.md)
